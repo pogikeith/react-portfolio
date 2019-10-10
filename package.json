@@ -9,7 +9,6 @@
     "heroku-postbuild": "npm run build",
     "precommit": "eslint src",
     "prod": "NODE_ENV=production node server.js"
-
   },
   "repository": {
     "type": "git",
@@ -35,6 +34,7 @@
   "dependencies": {
     "ajv": "^5.5.2",
     "autoprefixer": "^9.1.0",
+    "axios": "^0.19.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^7.2.3",
