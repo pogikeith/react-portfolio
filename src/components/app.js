@@ -3,15 +3,15 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NavigationContainer from "./Navigation/navigation-container";
-import Home from "./pages/home";
-import About from "./pages/about";
-import Contact from "./pages/contact";
-import Blog from "./pages/blog";
-import BlogDetail from "./pages/blog-detail";
-import PortfolioManager from "./pages/portfolio-manager";
-import PortfolioDetail from "./portfolio/portfolio-detail";
-import Auth from "./pages/auth";
-import NoMatch from "./pages/no-match";
+import Home from "./Pages/home";
+import About from "./Pages/about";
+import Contact from "./Pages/contact";
+import Blog from "./Pages/blog";
+import BlogDetail from "./Pages/blog-detail";
+import PortfolioManager from "./Pages/portfolio-manager";
+import PortfolioDetail from "./Portfolio/portfolio-detail";
+import Auth from "./Pages/auth";
+import NoMatch from "./Pages/no-match";
 import Icons from "../helpers/icons";
 
 export default class App extends Component {
