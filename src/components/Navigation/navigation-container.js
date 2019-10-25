@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { withRouter } from "react-router";
 import { NavLink } from "react-router-dom";
 
-const NavigationComponent = props => {
+const NavigationContainer = props => {
   const dynamicLink = (route, linkText) => {
     return (
       <div className="nav-link-wrapper">
@@ -74,4 +74,4 @@ const NavigationComponent = props => {
   );
 };
 
-export default withRouter(NavigationComponent);
+export default withRouter(NavigationContainer);

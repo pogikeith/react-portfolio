@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import NavigationContainer from "./navigation/navigation-container";
+import NavigationContainer from "./Navigation/navigation-container";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Contact from "./pages/contact";
