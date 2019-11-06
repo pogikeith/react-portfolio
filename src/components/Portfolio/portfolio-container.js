@@ -61,6 +61,8 @@ export default class PortfolioContainer extends Component {
       return <div>Loading...</div>;
     }
 
+    
+
     return (
       <div className="homepage-wrapper">
         <div className="filter-links">
